@@ -1,5 +1,6 @@
 # MightyLions_HCL_hackathon
 <h3>Team : Mighty Lions</h3>
+<h3>Submission for : CodeInIndia - MadurAI Hackathon</h3>
 <h3>College:</h3>
 Kamaraj College of Engineering and Technology.
 
@@ -18,4 +19,6 @@ Our objective, at this stage of the contest, is not to build a complete solution
 The dataset 'voicedataset.csv' included, has the following fields mean frequency("meanfreq") ,standard deviation("sd") , median frequency("median") , first quantile("Q25") ,third quantile("Q75") ,interquantile range("IQR") ,skewness("skew") ,kurtosis("kurt") ,spectral entropy("sp.ent") ,spectral flatness("sfm") ,mode frequency("mode") ,frequency centroid ("centroid") ,average of fundamental frequency("meanfun") ,minimum fundamental frequency("minfun") ,maximum fundamental frequency("maxfun") ,average of dominant frequency("meandom") ,minimum of dominant frequency("mindom") ,maximum of dominant frequency("maxdom") ,range of dominant frequency("dfrange") , modulation index("modindx") , "label". Here all fields represent an acoustic property except for the label field. Label denotes the original gender for the particular sample voice. From the csv file of 3168 voice samples with 1584 male and 1584 female data, a set of data (80%) is taken as train data and rest (20%) as the test. 
 
 <h4>Results & Inference - </h4>
-Different ML/AI algorithms have been worked out and their results ('ml_grv_results.png') are included in this repository. Additionally, the execution time for each algorithm is calculated and reported. Our Inference from the above is that the decision tree classifier has higher accuracy for this dataset model and we have also included the algorithm ('ml_grv_algo.png') for it. We have worked on five algorithms namely DecisionTree, K-mean, SVM, Naives bayes and logistic regression from which decision_tree ('mh_grv_dtree.py') and k-mean ('mh_grv_kmean.py') are added. 
+Different ML/AI algorithms have been worked out and their results ('ml_grv_results.png') are included in this repository. Additionally, the execution time for each algorithm is calculated and reported. Our Inference from the above is that the decision tree classifier has highest accuracy for this dataset model and we have also included the algorithm ('ml_grv_algo.png') for it. We have worked on five algorithms namely DecisionTree, K-mean, SVM, Naives bayes and logistic regression from which decision_tree ('mh_grv_dtree.py') and k-mean ('mh_grv_kmean.py') are added. 
+
+Finally, thank for the workshop. We look forward to explore more on AI/ML.
